@@ -1,0 +1,6 @@
+ini_open("game_settings.ini")
+ini_write_real("settings", "soundvolume", global.soundvolume)
+ini_write_real("settings", "musicvolume", global.musicvolume)
+ini_write_real("settings", "width", global.width)
+ini_write_real("settings", "height", global.height)
+ini_close()
